@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- Página "Portfólio": links para trabalhos já realizados -->
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Trabalhos e projetos de Ana Milca Araujo">
+  <title>Portfólio | Ana Milca Araujo</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== Cabeçalho com menu fixo (igual em todas as páginas) ===== -->
+  <header class="cabecalho">
+    <div class="cabecalho-conteudo">
+      <a href="index.html" class="logo">Ana Milca Araujo</a>
+
+      <nav class="navegacao" id="navegacao" aria-label="Menu principal">
+        <ul class="menu">
+          <li><a href="index.html">Sobre mim</a></li>
+          <li><a href="formacao.html">Formação</a></li>
+          <li><a href="portfolio.html" class="ativo">Portfólio</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="acoes-cabecalho">
+        <button class="botao-icone" id="botao-tema" type="button" aria-label="Ativar tema escuro">🌙</button>
+        <button class="botao-icone botao-menu" id="botao-menu" type="button" aria-label="Abrir menu" aria-controls="navegacao" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== Conteúdo principal ===== -->
+ <!-- ===== Conteúdo principal: Portfólio ===== -->
+<main>
+  <h1>Portfólio</h1>
+  <p class="subtitulo">Trabalhos e projetos que desenvolvi.</p>
+
+  <!-- Projeto 1: este próprio site -->
+  <div class="cartao">
+    <h3>Portfólio online (este site)</h3>
+    <p>Site de currículo desenvolvido com HTML5, CSS3 e JavaScript puros, com
+       menu responsivo, tema claro/escuro e formulário de contato validado.</p>
+    <!-- TROCAR pelo link do repositório depois de criar o GitHub -->
+    <a href="https://github.com/anamilca/portfolio" class="botao"
+       target="_blank" rel="noopener">Ver código no GitHub</a>
+  </div>
+
+  <!-- Projeto 2: Engmed -->
+  <div class="cartao">
+    <h3>Engmed Occupational Health</h3>
+    <p>Empresa de saúde e segurança do trabalho (SST) e meio ambiente, da qual
+       sou sócia. Atuo na gestão e na entrega de treinamentos, planos de ação
+       e laudos para empresas clientes.</p>
+    <a href="https://www.instagram.com/engmedoccupational" class="botao"
+       target="_blank" rel="noopener">Ver Instagram da Engmed</a>
+  </div>
+
+  <!-- Projeto 3: Central do Epi -->
+  <div class="cartao">
+    <h3>Gestão financeira na Central do Epi</h3>
+    <p>Atuo como diretora financeira desde 2022, cuidando da organização
+       financeira e administrativa da empresa em Pernambuco.</p>
+  </div>
+
+  <!-- Projeto 4: LinkedIn -->
+  <div class="cartao">
+    <h3>Perfil profissional</h3>
+    <p>Minha trajetória, experiências e conexões profissionais.</p>
+    <a href="https://www.linkedin.com/in/ana-milca-050a49212" class="botao"
+       target="_blank" rel="noopener">Ver LinkedIn</a>
+  </div>
+</main>
+
+  <!-- ===== Rodapé ===== -->
+  <footer class="rodape">
+    <p>&copy; <span id="ano-atual"></span> Ana Milca Araujo · Desenvolvido com HTML5, CSS3 e JavaScript</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

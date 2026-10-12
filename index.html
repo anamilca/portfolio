@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!-- Página inicial: "Sobre mim" -->
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio e currículo online de Ana Milca Araujo">
+  <title>Sobre mim | Ana Milca Araujo</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== Cabeçalho com menu fixo (igual em todas as páginas) ===== -->
+  <header class="cabecalho">
+    <div class="cabecalho-conteudo">
+      <a href="index.html" class="logo">Ana Milca Araujo</a>
+
+      <nav class="navegacao" id="navegacao" aria-label="Menu principal">
+        <ul class="menu">
+          <li><a href="index.html" class="ativo">Sobre mim</a></li>
+          <li><a href="formacao.html">Formação</a></li>
+          <li><a href="portfolio.html">Portfólio</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="acoes-cabecalho">
+        <!-- Botão que alterna entre tema claro e escuro (ver js/script.js) -->
+        <button class="botao-icone" id="botao-tema" type="button" aria-label="Ativar tema escuro">🌙</button>
+        <!-- Botão "hambúrguer": aparece só em telas pequenas -->
+        <button class="botao-icone botao-menu" id="botao-menu" type="button" aria-label="Abrir menu" aria-controls="navegacao" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== Conteúdo principal ===== -->
+  <main>
+    <section class="apresentacao">
+      <!-- Foto de perfil (recortada em quadrado; o CSS deixa redonda) -->
+      <img class="foto" src="img/img/foto_engmed.jpg" alt="Foto de Ana Milca Araujo">
+
+      <div>
+        <h1>Olá, eu sou Ana Milca!</h1>
+        <p class="subtitulo">Empresária · Desenvolvedora em formação · Araripina – PE</p>
+        <p>Sou empresária e sócia da <strong>Engmed Occupational Health</strong>, empresa de consultoria em saúde ocupacional. Há 5 anos atuo na gestão do negócio, lidando de perto com processos, pessoas e tomada de decisão.</p>
+        <p>Em 2024 iniciei uma nova jornada: a tecnologia. Hoje sou graduanda em Engenharia de Software e aluna do CS50, curso online de Ciência da Computação da Universidade de Harvard. Meu diferencial é olhar para o código com a visão de quem conhece, na prática, os desafios de uma empresa e criar soluções que resolvam problemas reais.</p>
+      </div>
+    </section>
+
+    <!-- Hobbies e interesses em formato de "etiquetas" -->
+    <h2>Hobbies e interesses</h2>
+    <ul class="lista-tags">
+      <li>Estudar</li>
+      <li>Tecnologia e programação</li>
+      <li>Empreendedorismo</li>
+    </ul>
+
+    <h2>Objetivos</h2>
+    <div class="cartao">
+      <p>Desenvolver projetos próprios que tragam mais eficiência e inovação para a ENGMED Occupational Health e, a partir dessa experiência, construir parcerias com outros desenvolvedores para criar sites e soluções digitais que facilitem a rotina de empresários e pequenos negócios.</p>
+    </div>
+
+    <a href="contato.html" class="botao">Entre em contato</a>
+  </main>
+
+  <!-- ===== Rodapé ===== -->
+  <footer class="rodape">
+    <p>&copy; <span id="ano-atual"></span> Ana Milca Araujo · Desenvolvido com HTML5, CSS3 e JavaScript</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

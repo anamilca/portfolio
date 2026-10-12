@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!-- Página "Formação": formação educacional, cursos e idiomas -->
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Formação acadêmica, cursos e idiomas de Ana Milca Araujo">
+  <title>Formação | Ana Milca Araujo</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== Cabeçalho com menu fixo (igual em todas as páginas) ===== -->
+  <header class="cabecalho">
+    <div class="cabecalho-conteudo">
+      <a href="index.html" class="logo">Ana Milca Araujo</a>
+
+      <nav class="navegacao" id="navegacao" aria-label="Menu principal">
+        <ul class="menu">
+          <li><a href="index.html">Sobre mim</a></li>
+          <li><a href="formacao.html" class="ativo">Formação</a></li>
+          <li><a href="portfolio.html">Portfólio</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="acoes-cabecalho">
+        <button class="botao-icone" id="botao-tema" type="button" aria-label="Ativar tema escuro">🌙</button>
+        <button class="botao-icone botao-menu" id="botao-menu" type="button" aria-label="Abrir menu" aria-controls="navegacao" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== Conteúdo principal ===== -->
+  <main>
+    <h1>Formação</h1>
+    <p class="subtitulo">Minha trajetória acadêmica, cursos, experiência e idiomas.</p>
+
+    <!-- Formação educacional em linha do tempo (mais recente primeiro) -->
+    <h2>Formação acadêmica</h2>
+    <ul class="linha-tempo">
+      <li class="cartao">
+        <h3>Engenharia de Software</h3>
+        <p>Graduação</p>
+        <p class="periodo">Julho de 2024 – em andamento</p>
+      </li>
+    </ul>
+
+    <!-- Cursos complementares e certificados -->
+    <h2>Cursos complementares</h2>
+    <ul class="linha-tempo">
+      <li class="cartao">
+        <h3>CS50: Introduction to Computer Science</h3>
+        <p>HarvardX (edX) – algoritmos, estruturas de dados, C, Python, SQL e desenvolvimento web</p>
+        <p class="periodo">Em andamento</p>
+      </li>
+    </ul>
+
+    <!-- Experiência profissional -->
+    <h2>Experiência profissional</h2>
+    <ul class="linha-tempo">
+      <li class="cartao">
+        <h3>Sócia e gestora</h3>
+        <p>Engmed Occupational Health – gestão do negócio e consultoria em saúde ocupacional para empresas</p>
+        <p class="periodo">5 anos de experiência – atual</p>
+      </li>
+    </ul>
+
+    <!-- Idiomas em tabela -->
+    <h2>Idiomas</h2>
+    <div class="cartao">
+      <table class="tabela">
+        <thead>
+          <tr>
+            <th>Idioma</th>
+            <th>Nível</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Português</td>
+            <td>Nativo</td>
+          </tr>
+          <tr>
+            <td>Espanhol</td>
+            <td>Fluente</td>
+          </tr>
+          <tr>
+            <td>Inglês</td>
+            <td>Básico</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <!-- ===== Rodapé ===== -->
+  <footer class="rodape">
+    <p>&copy; <span id="ano-atual"></span> Ana Milca Araujo · Desenvolvido com HTML5, CSS3 e JavaScript</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
